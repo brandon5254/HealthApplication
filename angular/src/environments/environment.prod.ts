@@ -1,11 +1,12 @@
 export const environment = {
   firebase: {
-    apiKey: "AIzaSyCi-6vK9EMktfo2-kUOOhq54j81GRjcj98",
-    authDomain: "health-application-5e38e.firebaseapp.com",
-    projectId: "health-application-5e38e",
-    storageBucket: "health-application-5e38e.appspot.com",
-    messagingSenderId: "664699308727",
-    appId: "1:664699308727:web:4e1d2a73da24067a615b32"
+  apiKey: "AIzaSyAnKnFsNnqUB1NYJr_-jlPRrVxCTircBfI",
+  authDomain: "health-app-ee23d-a6427.firebaseapp.com",
+  projectId: "health-app-ee23d-a6427",
+  storageBucket: "health-app-ee23d-a6427.firebasestorage.app",
+  messagingSenderId: "32081103932",
+  appId: "1:32081103932:web:1112aacf2d835c5c5e0739",
+  measurementId: "G-93SLET7HY4"
   },
   production: true,
 };

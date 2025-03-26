@@ -120,4 +120,4 @@ def train():
 
 if __name__ == '__main__':
     # run web server
-    app.run()
+    app.run(port=5001)
