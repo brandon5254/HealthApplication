@@ -1,9 +1,8 @@
 from flask import Flask, request
 from flask_cors import CORS
-import os
+
 import model
-import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../model")))
+
 
 
 app = Flask(__name__)
