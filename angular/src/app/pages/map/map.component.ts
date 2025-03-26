@@ -3,7 +3,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { Loader } from '@googlemaps/js-api-loader';
 
 // google maps api key
-import { apiKey } from './api-key';
+const apiKey = 'AIzaSyAFRms9o-1WMDcaOXa58C7AYpfbsuoJ8pM';
 
 @Component({
   selector: 'app-map',
@@ -28,7 +28,7 @@ initMap(): void {
   let loader;
   if (apiKey){
     loader = new Loader({
-      apiKey: apiKey.googleMapsApiKey
+      apiKey: apiKey
     })
   }
   else{
